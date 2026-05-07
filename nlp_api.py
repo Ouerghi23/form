@@ -30,7 +30,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel, Field
 
-from src.nlp.multilingual_nlp_pipeline import MultilingualNLPPipeline
+from multilingual_nlp_pipeline import MultilingualNLPPipeline
 from src.nlp.complaint_db import ComplaintDB
 
 # ── App ────────────────────────────────────────────────────────────────────────
